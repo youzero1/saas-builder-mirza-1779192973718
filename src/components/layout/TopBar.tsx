@@ -52,7 +52,7 @@ export default function TopBar() {
                       >
                         <div
                           className="w-7 h-7 rounded-full flex items-center justify-center text-white text-xs font-bold shrink-0"
-                          style={{ backgroundColor: '#6366f1' }}
+                          style={{ backgroundColor: '#dc2626' }}
                         >
                           {u.avatarInitials}
                         </div>
@@ -72,7 +72,7 @@ export default function TopBar() {
         {/* Avatar */}
         <div
           className="w-8 h-8 rounded-full flex items-center justify-center text-white text-sm font-bold shrink-0"
-          style={{ backgroundColor: '#6366f1' }}
+          style={{ backgroundColor: '#dc2626' }}
         >
           {currentUser.avatarInitials}
         </div>
