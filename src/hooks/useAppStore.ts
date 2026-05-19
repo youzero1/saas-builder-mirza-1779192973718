@@ -4,7 +4,7 @@ import { storage } from '@/lib/storage';
 import { seedIfEmpty } from '@/lib/seed';
 import {
   Organization, User, MetricEntry, Dashboard, Report,
-  DashboardWidget, MetricType, Role, ReportStatus, WidgetType
+  DashboardWidget, Role
 } from '@/types';
 
 export function useAppStore() {
